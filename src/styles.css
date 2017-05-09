@@ -1,0 +1,45 @@
+body{margin:0;text-align:left;font:16px/140% "\5B8B\4F53",Arial,Verdana;font-family:"Microsoft YaHei","微软雅黑",Helvetica,"黑体",Arial,Tahoma;color: #666;font-weight: lighter;}
+div, dl, dt,td, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, p, blockquote{list-style:none;margin:0px;padding:0px;}
+h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;font-weight: lighter;}
+form, select{margin:0px;padding:0px;}
+input, textarea{padding:0;font-size:12px;resize:none;outline:none;border: 0;font-family: inherit;}
+a img {border:0;text-decoration: none;color:black;}
+div, h1, h2, p, Table, Tr, Td{word-wrap:break-word;word-break:break-all;}
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select, strong, textarea, th, var{font-style:normal;}
+ul, ol , li {list-style: none;}
+ul li{vertical-align:top;}
+img{vertical-align:middle;}
+table{border-collapse:collapse; border-spacing:0}
+th{font-weight: normal;}
+a{border:0;text-decoration: none;color:#fff;}
+a:hover{-o-transition: .5s;-ms-transition: .5s;-moz-transition: .5s;-webkit-transition: .5s;}
+/*customed style*/
+.cover{background: url("./app/img/opera.jpg") top left no-repeat #666; background-size:cover;display: block;position: fixed;width:100%;height:100%;}
+.cover-overlayer{position: absolute;top:0;left:0;bottom: 0;right: 0;background-color: rgba(68, 68, 68, 0.7);z-index: 0;}
+.navigator{position: fixed;z-index: 1000;text-align: center;width: 100%;top:1%;font-size: 20px;font-weight: bolder;}
+.navigator ul{ }
+.navigator a{color:#bbb;}
+.navigator a:hover{color:#fff;}
+.navigator li{padding:0 10px 0 0;display: inline-block;}
+.profile{position:absolute;width:100%;height:100%;text-align: center;color:#eee;z-index: 99; display: table;}
+.profile-content{display: table-cell; vertical-align: middle;}
+.profile-show{max-width: 640px;margin:0 auto;width:100px;height:100px;}
+.blog-button:hover  img{-webkit-transform: rotate3d(0, 1, 0, -180deg);-moz-transform: rotate3d(0, 1, 0, -180deg);-ms-transform: rotate3d(0, 1, 0, -180deg);-o-transform: rotate3d(0, 1, 0, -180deg);transform: rotate3d(0, 1, 0, -180deg);}
+.circle{border-radius:50%;border:none; width:100px;height:100px;}
+.portrait{position: absolute;z-index: 101;}
+.portrait img{-webkit-transition: all 0.5s ease-in-out;-moz-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;-webkit-transform-origin: 0% 50%;-moz-transform-origin: 0% 50%;-ms-transform-origin: 0% 50%;-o-transform-origin: 0% 50%;transform-origin: 0% 50%;}
+.info{position: absolute;z-index: 100;}
+.name{margin:20px 0 5px 0;font-size: 1.5em;}
+.divider{width:25%;border:none;border-top: 1px solid rgba(255, 255, 255, 0.14);margin:20px auto;}
+.divider.secondary{width:15%;}
+.subtitle{font-size: 16px;margin-top: 15px;}
+.info{background-color: #333}
+.info-name{font-size: 18px;margin-top: 20px;}
+.info-job{display:block;font-size: 10px;margin-top:20px;}
+.skills{font-size: 14px;}
+.intro{margin-top: 15px;}
+.blk{display: block;}
+
+@media all and (max-width: 1100px){
+    .cover{width: 100%;height: 100%;background-position: center center;}
+}
