@@ -1,3 +1,3 @@
-# MyPage and some fun ideas maybe
+# MyPage and some fun ideas maybe in the future
 
-#If you like please Star me!
+If you like it please give me a Star
