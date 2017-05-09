@@ -2,6 +2,6 @@
 
 If you like it please give me a Star
 
-##Usage
+Usage
 
 npm start
